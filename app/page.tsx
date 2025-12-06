@@ -2,7 +2,13 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-  return <h1>テクノロジーの力で世界を変える</h1>;
+  return (
+    <div>
+      <h1>テクノロジーの力で世界を変える</h1>
+    </div>
+    <p>私たちは市場をリードしているグローバルテックカンパニーです。</p>
+    </div>
+  );
 }
     <main className={styles.main}>
       <div className={styles.description}>

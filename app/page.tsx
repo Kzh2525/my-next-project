@@ -2,17 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-
-  const  name = "世界";
   return (
-    <div>
-      <h1 className="title">テクノロジーの力で{name}を変える</h1>
-      <p className="description">
-     私たちは市場をリードしているグローバルテックカンパニーです。
-    </p>
-  </div>  
-);
-}
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -71,7 +61,7 @@ export default function Home() {
           <h2>
             Learn <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Learn about Next.js in an interactive course with\u00a0quizzes!</p>
         </a>
 
         <a

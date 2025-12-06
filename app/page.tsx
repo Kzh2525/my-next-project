@@ -2,9 +2,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+
+  const  name = "世界";
   return (
     <div>
-      <h1>テクノロジーの力で世界を変える</h1>
+      <h1>テクノロジーの力で{name}を変える</h1>
     </div>
     <p>私たちは市場をリードしているグローバルテックカンパニーです。</p>
     </div>

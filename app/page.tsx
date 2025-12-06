@@ -6,11 +6,12 @@ export default function Home() {
   const  name = "世界";
   return (
     <div>
-      <h1>テクノロジーの力で{name}を変える</h1>
-    </div>
-    <p>私たちは市場をリードしているグローバルテックカンパニーです。</p>
-    </div>
-  );
+      <h1 className="title">テクノロジーの力で{name}を変える</h1>
+      <p className="description">
+     私たちは市場をリードしているグローバルテックカンパニーです。
+    </p>
+  </div>  
+);
 }
     <main className={styles.main}>
       <div className={styles.description}>

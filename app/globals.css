@@ -1,4 +1,4 @@
-root {
+:root {
  --font-mono: ui-monospace,  
  Menlo, Monaco, "Cascadia Mono", 
  "Segoe UI Mono", 
@@ -6,26 +6,26 @@ root {
   Mono","Ubuntu Monospace",  
  "Source Code Pro", 
         "Fira Mono", "Droid Sans 
-    Mono", "Courier New", monospace;
-  --color-text-main: #3333;
-  --color-text-sub: #999;
-  --color-text-unpainted: #fff;
-  --color-text-error: #f33;
-  --color-bg-main: #fff;
-  --color-bg-sub: #f3f3f3;
-  --color-bg-code: #fafafa;
-  --color-bg-painted: #333;
-  --color-border-dark: #333;
-  --color-border: #ddd;
-  --color-border-light: #f3f3f3;
-  --color-current: #eee;
-  --color-radius: 4px;
+  Mono", "Courier New", monospace;
+    --color-text-main: #3333;
+    --color-text-sub: #999;
+    --color-text-unpainted: #fff;
+    --color-text-error: #f33;
+    --color-bg-main: #fff;
+    --color-bg-sub: #f3f3f3;
+    --color-bg-code: #fafafa;
+    --color-bg-painted: #333;
+    --color-border-dark: #333;
+    --color-border: #ddd;
+    --color-border-light: #f3f3f3;
+    --color-current: #eee;
+    --color-radius: 4px;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+*  {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
 }
 
 html,

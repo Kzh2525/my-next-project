@@ -1,10 +1,10 @@
 root {
- --font-mono: ui-monospace,
- Menlo, Monaco, "Cascadia Mono",
- "Segoe UI Mono",
-     "Roboto Mono", "Oxygen 
- Mono", "Ubuntu Monospace",
- "Source Code Pro",
+ --font-mono: ui-monospace,  
+ Menlo, Monaco, "Cascadia Mono", 
+ "Segoe UI Mono", 
+     "Roboto Mono", "Oxygen
+  Mono","Ubuntu Monospace",  
+ "Source Code Pro", 
         "Fira Mono", "Droid Sans 
     Mono", "Courier New", monospace;
   --color-text-main: #3333;
@@ -15,5 +15,20 @@ root {
   --color-bg-sub: #f3f3f3;
   --color-bg-code: #fafafa;
   --color-bg-painted: #333;
+  --color-border-dark: #333;
+  --color-border: #ddd;
+  --color-border-light: #f3f3f3;
+  --color-current: #eee;
+  --color-radius: 4px;
+}
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
 }

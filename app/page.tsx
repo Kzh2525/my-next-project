@@ -9,6 +9,6 @@ export default function Home() {
         私たちは市場をリードしているグローバルテックカンパニーです。
         </p>
       </div>
-
+      
   ); 
 }

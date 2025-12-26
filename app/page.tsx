@@ -47,7 +47,48 @@ const data: {
 
 export default function Home() {
   return (
-    <section className={styles.top}></section>
+    <>
+    <section className={styles.top}>
+
+    </section>
+    <section className={styles.news}>
+      <h2 className={styles.newsTitle}>News</h2>
+      <ul>
+        {data.contents.map((article) => (
+          <li key={article.id} className={styles.list}>
+            <div className={styles.link}>
+              <image
+                className={styles.image}
+                src="no-image.png"
+                alt="No Image"
+                width={1200}
+                height={630}
+                />
+                <dl className={styles.comtent}>
+                  <dt className={styles.newsItemTitle}>
+{article.title}</dt>
+                  <dd className={styles.meta}>
+                    <span className={styles.tag}>
+{article.category.name}</span>
+                    <span className={styles.date}> 
+                      <Image
+                        src="/clock.svg"
+                        alt=""
+                        width={16}
+                        height={16}
+                      />
+                      {article.publishedAt}
+                    </span>  
+                  </dd>
+                </dl>  
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </>
+  );
+}
     <div>
       <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
       <p className={styles.description}>

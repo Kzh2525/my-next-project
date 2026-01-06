@@ -47,7 +47,9 @@ const data: {
 };
 
 export default function Home() {
-  const sliceDate = data.contents.slice(0, 2);
+  // const sliceDate = data.contents.slice(0, 2);
+const sliceDate: News = [];
+
   return (
     <>
     <section className={styles.top}>

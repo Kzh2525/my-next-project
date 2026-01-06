@@ -8,3 +8,13 @@
         var(--color-button-primary);
     color: var(--color-text-unpainted);
 }
+.button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+    .button {
+        padding: 16px 24px;
+        width: 100%;
+    }
+}

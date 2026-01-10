@@ -48,7 +48,7 @@ const data: {
 
 export default function Home() {
   // const sliceDate = data.contents.slice(0, 2);
-const sliceDate: News = [];
+const sliceDate: News = []; 
 
   return (
     <>

@@ -15,12 +15,17 @@ export default function Header() {
                 priority
             />
             </link>
-            <nav>
+            <nav className={styles.nav}>
                 <ul className={styles.Items}>
                     <li>
-                        <link href="/members">メンバー</link>
+                        <Link href="/news">ニュース</Link>
                     </li>
-                    </ul>
+                    <li>
+                        <Link href="/members">メンバー</Link>
+                    </li>
+                    <li><Link href="/contact">お問い合わせ</Link>
+                    </li>
+                </ul>
                 </nav>
         </header>
     );

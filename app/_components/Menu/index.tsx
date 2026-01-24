@@ -1,8 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
 import styles from ".index.module.css";
 
 export default function Menu() {
+    const open = () => {
+        document.querySelector("nav")?.classList.add(styles.open);
+    };
     return (
+        <div>
         <nav className={styles.menu}>
             <ul className={styles.items}>
                 <li>
@@ -16,5 +23,10 @@ export default function Menu() {
                 </li>
             </ul>
         </nav>
-    );
+        <button className={styles.button} onClick={open}>
+            <Image src="/menu.svg" alt="menu" width={24} 
+            height={24} />
+        </button>
+        </div>
+            );
 }
